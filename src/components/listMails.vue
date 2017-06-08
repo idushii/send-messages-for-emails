@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="root">
     <ul class="collection with-header">
       <li class="collection-header"><h5>Список email`ов <a class="waves-effect waves-light btn right btn-add-mails" @click="openModalForList"><i class="material-icons">add</i></a></h5></li>
       <li class="collection-item" v-for="mail in listMails">
@@ -75,5 +75,9 @@
   
   .btn-select {
     cursor: pointer;
+  }
+  
+  .root {
+    margin-top: 20px;
   }
 </style>
