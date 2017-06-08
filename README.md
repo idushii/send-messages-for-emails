@@ -1,6 +1,6 @@
-# send-to-mail
+# send-to-mails-list
 
-> Рассылка сообщений о списку организаций
+> Рассылка сообщений по списку email`ов
 
 ## Build Setup
 
